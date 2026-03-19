@@ -16,7 +16,4 @@ def main():
             print("application/zip")
         case _:
             print("application/octet-stream")
-
-
-
 main()
