@@ -11,7 +11,7 @@ def is_valid(s):
         return False
 def check1(s):
     #All vanity plates must start with at least two letters.
-    if s[0:2].isalpha:
+    if s[0:2].isalpha():
         return True
     return False
 def check2(s):
