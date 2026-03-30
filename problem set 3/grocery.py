@@ -19,7 +19,7 @@ def add_item(item):
 def show_list(grocery_list):
     sorted_list = sorted(grocery_list)
     for item in sorted_list:
-        print(item, grocery_list[item])
+        print(grocery_list[item], item)
 
 grocery_list = {}
 main()
